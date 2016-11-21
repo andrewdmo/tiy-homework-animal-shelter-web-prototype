@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/animalstyle.css">
+    <title>Noah's Ark </title>
+</head>
+<body>
+<div class="container">
+    <div class="row u-max-full-width headerText">
+        <h2 class="twelve columns">Welcome to Noah's Ark!!</h2>
+    </div><!--row-->
+    <div class="row u-max-full-width headerText u-pull-right">
+        <h4 class="twelve columns">...we're all endangered here...</h4>
+    </div><!--row-->
+    <div class="row u-max-full-width bodyText">
+        <div class="twelve columns u-full-width" align="center" style="padding: 5%">
+            <img src="img/noah.jpg" width="85%">
+        </div>
+    </div><!--row-->
+    <div class="row u-max-full-width bodyText">
+        <div class="six columns">
+            <button class="button-primary" ref="/listpage/html" style="width: 100%">List Critter</button>
+        </div>
+        <div class="six columns">
+            <button class="button-primary" ref="/createpage.html" style="width: 100%">Create</button>
+        </div>
+    </div><!--row-->
+</div><!--container-->
+
+
+<h3><label>Search for Animal:</label></h3>
+<form action="/" method="get">
+    <input type="text" name="name" id="name" placeholder="Name">
+
+    <select name="typeID">
+        <option value="">All Types</option>
+        <option value="d">Dog</option>
+        <option value="c">Cat</option>
+        <option value="b">Bird</option>
+        <option value="f">Fish</option>
+        <option value="r">Rabbit</option>
+    </select>
+    <input type="text" name="id" id="id" placeholder="Animal ID">
+    <button name="button">Search</button>
+</form>
+
+<!--List of Aimals that is static for now -->
+<section>
+    <div class="row">
+        <img src="images/dog.jpeg">
+        <p>
+        <h3><a>Rufus</a></h3>
+        <strong>Type:</strong> Dog
+        <br>
+        <strong>Breed:</strong> Hound<br>
+        <strong>Description:</strong> Lovable<br>
+        <strong>Notes:</strong> <a href="animalNote.html">5</a><br>
+        </p>
+
+        <img src="images/catbiz.jpeg">
+        <p>
+        <h3><a>Puss'n Suit</a></h3>
+        <strong>Type:</strong> Cat
+        <br>
+        <strong>Breed:</strong> Tabby<br>
+        <strong>Description:</strong> All Biz<br>
+        <strong>Notes:</strong> <a href="animalNote.html">2</a><br>
+        </p>
+
+        <img src="images/rabbit.jpeg">
+        <p>
+        <h3><a>Trixie</a></h3>
+        <strong>Type:</strong> Rabbit
+        <br>
+        <strong>Breed:</strong> LongHair<br>
+        <strong>Description:</strong> What's Up Doc?<br>
+        <strong>Notes:</strong><a href="animalNote.html">2</a><br>
+        </p>
+    </div>
+
+</section>
+
+
+</body>
+</html>
+
+<!--alt="Pic1" width="300" height="195"-->

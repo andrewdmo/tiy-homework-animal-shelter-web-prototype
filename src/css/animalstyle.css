@@ -1,0 +1,12 @@
+html, head, body {
+    /*background-image: url(//img/animalicon.png);*/
+    background-repeat: repeat;
+    background-image: url(/img/animalicon.png);
+}
+
+.background{
+
+    background-image: url(/img/animalicon.png);
+    background-repeat: repeat;
+    /*background: url("/Pics/animalicon.png") repeat;*/
+}

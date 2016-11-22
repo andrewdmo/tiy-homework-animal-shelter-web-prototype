@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Animal Shelter JSP:war">
+    <output-path>$PROJECT_DIR$/Animal Shelter JSP/target</output-path>
+    <root id="archive" name="animal jsp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Animal Shelter JSP:war exploded" />
+    </root>
+  </artifact>
+</component>

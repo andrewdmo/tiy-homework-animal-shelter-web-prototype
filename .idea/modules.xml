@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Animal Shelter JSP/Animal Shelter JSP.iml" filepath="$PROJECT_DIR$/Animal Shelter JSP/Animal Shelter JSP.iml" />
       <module fileurl="file://$PROJECT_DIR$/tiy-homework-animal-shelter-web-prototype.iml" filepath="$PROJECT_DIR$/tiy-homework-animal-shelter-web-prototype.iml" />
     </modules>
   </component>
